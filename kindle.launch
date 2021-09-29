@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<launch>
+
+<node pkg="task_1" type="durjoydatta.py" name="Durjoy_datta" output="screen" />
+
+<node pkg="task_1" type="ananthpai.py" name="Ananth_pai" output="screen" />
+
+<node pkg="task_1" type="joel.py" name="Joel" output="screen" />
+
+<node pkg="rqt_graph" type="rqt_graph" name="rqt_graph" output="screen" respawn="true" />
+
+</launch>	
